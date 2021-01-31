@@ -26,7 +26,7 @@ namespace TrademeSandbox.StepDefinitions
         
        
         //Initiate a web driver. Options are Chrome and Firefox. Just need to change the BrowserType in this method
-        public SearchUsedCarsSteps() : base(BrowserType.Firefox)
+        public SearchUsedCarsSteps() : base(BrowserType.Chrome)
         {
           
         }
