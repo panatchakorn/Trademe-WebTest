@@ -24,20 +24,24 @@ If you have different browsers version, Webdrivers will need to be updated in Nu
 
 - From Visual studio clone a new project from https://github.com/panatchakorn/Trademe-WebTest
 It will download and restore required packages:
-    <PackageReference Include="DotNetSeleniumExtras.WaitHelpers" Version="3.11.0" />
-    <PackageReference Include="nunit" Version="3.13.0" />
-    <PackageReference Include="NUnit3TestAdapter" Version="3.17.0" />
-    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.8.3" />
-    <PackageReference Include="Selenium.Firefox.WebDriver" Version="0.27.0" />
-    <PackageReference Include="Selenium.Support" Version="3.141.0" />
-    <PackageReference Include="Selenium.WebDriver" Version="3.141.0" />
-    <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="88.0.4324.9600" />
-    <PackageReference Include="SpecFlow" Version="3.5.5" />
-    <PackageReference Include="SpecFlow.NUnit" Version="3.5.5" />
-    <PackageReference Include="SpecFlow.Plus.LivingDocPlugin" Version="3.5.286" />
-    <PackageReference Include="SpecFlow.Tools.MsBuild.Generation" Version="3.5.5" />
 
-<i><b>Note:</b> LivingDocPlugin depends on SpecFlow 3.5.5 and SpecFlow.NUnit 3.5.5 so don't upgrade to latest</i>
+<i><ul>
+    <li> "DotNetSeleniumExtras.WaitHelpers" Version="3.11.0" </li>
+    <li> "nunit" Version="3.13.0" </li>
+    <li> "NUnit3TestAdapter" Version="3.17.0"</li>
+    <li> "Microsoft.NET.Test.Sdk" Version="16.8.3" </li>
+    <li> "Selenium.Firefox.WebDriver" Version="0.27.0" </li>
+    <li> "Selenium.Support" Version="3.141.0" </li>
+    <li> "Selenium.WebDriver" Version="3.141.0"</li>
+    <li> "Selenium.WebDriver.ChromeDriver" Version="88.0.4324.9600" </li>
+    <li> "SpecFlow" Version="3.5.5" </li>
+    <li> "SpecFlow.NUnit" Version="3.5.5" </li>
+    <li> "SpecFlow.Plus.LivingDocPlugin" Version="3.5.286" </li>
+    <li> "SpecFlow.Tools.MsBuild.Generation" Version="3.5.5" </li>
+  </ul>
+</i>
+
+<i><b>Note:</b> LivingDocPlugin depends on SpecFlow 3.5.5 and SpecFlow.NUnit 3.5.5 so don't upgrade SpecFlow and SpecFlow.NUnit to latest version</i>
 
 - Now you can right click on the Solution and select Run Tests
 
